@@ -31,8 +31,8 @@ public class Updated_Login_Page {
 	By Facebook_SignIn = By.xpath("/html/body/div[7]/div/div/div[2]/div[1]/div[1]/div/div[1]/a/span[2]");
 	By GoogleSignIn = By.xpath("/html/body/div[7]/div/div/div[2]/div[1]/div[1]/div/div[2]/a/span[2]");
 	By QuickCheckout = By.xpath("/html/body/div[7]/div/div/div[2]/div[1]/div[3]/div[1]/button/span");
-	By UserNameTextBox = By.xpath("//input[@id='loginEmail' and @type='email']");
-	By PasswordTextBox = By.xpath("//input[@id='loginPassword' and @type='password']");
+	By UserNameTextBox = By.cssSelector("#loginEmail");
+	By PasswordTextBox = By.xpath("/html/body/div[7]/div/div/div[2]/div[1]/div[5]/form/div/div[2]/div[1]/input");
 	By RememberMeCheckBox = By.xpath("/html/body/div[7]/div/div/div[2]/div[1]/div[5]/form/div/div[2]/div[2]/div[1]/div/input");
 	By ForgotPassword = By.xpath("/html/body/div[7]/div/div/div[2]/div[1]/div[5]/form/div/div[2]/div[2]/div[2]/a");
 	By Consent_CheckBox = By.xpath("/html/body/div[7]/div/div/div[2]/div[1]/div[5]/form/div/div[2]/div[3]/input");
@@ -84,7 +84,7 @@ public class Updated_Login_Page {
 	public void Wait_Modal() {
 		//WaitUtil wu = new WaitUtil();
 		WebElement Login_Modal_Div = cd.findElement(Login_Modal);
-		WebDriverWait w = new WebDriverWait(cd,Duration.ofSeconds(15));
+		WebDriverWait w = new WebDriverWait(cd,Duration.ofSeconds(30));
 		w.until(ExpectedConditions.visibilityOf(Login_Modal_Div));
 		//WaitUtil.VisibilityOfElement(cd, Login_Modal_Div, 15);
 	}
