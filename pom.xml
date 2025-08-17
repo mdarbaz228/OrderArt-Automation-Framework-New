@@ -4,6 +4,10 @@
   <artifactId>OrderArtFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+  </properties>
 	<dependencies>
 		
 				<!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -46,6 +50,21 @@
 				    <artifactId>extentreports</artifactId>
 				    <version>5.1.1</version>
 				</dependency>
+				<dependency>
+				    <groupId>io.qameta.allure</groupId>
+				    <artifactId>allure-testng</artifactId>
+				    <version>2.29.1</version>
+				</dependency>
+		</dependencies>		
+			<build>
+			    <plugins>
+			        <!-- Allure Maven Plugin -->
+			        <plugin>
+			            <groupId>io.qameta.allure</groupId>
+			            <artifactId>allure-maven</artifactId>
+			            <version>2.11.2</version>
+			        </plugin>
+			    </plugins>
+			</build>
 
-		</dependencies>
 </project>
