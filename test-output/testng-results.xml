@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-17T20:06:51 IST" name="Default suite" finished-at="2025-08-17T20:07:55 IST" duration-ms="64477">
+  <suite started-at="2025-08-18T08:32:20 IST" name="Updated_Login" finished-at="2025-08-18T08:34:25 IST" duration-ms="125331">
     <groups>
     </groups>
-    <test started-at="2025-08-17T20:06:51 IST" name="Default test" finished-at="2025-08-17T20:07:55 IST" duration-ms="64477">
+    <test started-at="2025-08-18T08:32:20 IST" name="Test" finished-at="2025-08-18T08:34:25 IST" duration-ms="125331">
       <class name="com.OrderArt.Functionality.Implementation.Login_Updated">
-        <test-method signature="Login_OrderArt()[pri:0, instance:com.OrderArt.Functionality.Implementation.Login_Updated@6ed3f258]" started-at="2025-08-17T20:06:51 IST" name="Login_OrderArt" finished-at="2025-08-17T20:07:55 IST" duration-ms="64004" status="PASS">
+        <test-method signature="Login_OrderArt()[pri:0, instance:com.OrderArt.Functionality.Implementation.Login_Updated@177bea38]" started-at="2025-08-18T08:32:20 IST" name="Login_OrderArt" finished-at="2025-08-18T08:34:25 IST" duration-ms="125048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_OrderArt -->
       </class> <!-- com.OrderArt.Functionality.Implementation.Login_Updated -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Updated_Login -->
 </testng-results>
