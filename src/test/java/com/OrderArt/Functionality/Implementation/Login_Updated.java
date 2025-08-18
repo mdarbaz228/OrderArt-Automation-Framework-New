@@ -31,7 +31,7 @@ public class Login_Updated {
 			ulp.Click_Consent_CheckBox();
 			ulp.Click_SignInButton();
 			llp.Wait_Span();
-			llp.Get_User_Details_Span();
+			llp.Get_User_Details_Span_DD();
 			File Screenshot = ((TakesScreenshot) cd).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(Screenshot,new File("Screenshot.jpg"));
 			
